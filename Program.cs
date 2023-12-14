@@ -17,7 +17,7 @@ namespace FastTypingChallenge
             Console.WriteLine("Введите ваш ник:");
             string nick = Console.ReadLine();
 
-            Console.WriteLine("по нажатию enter начнется тест и запустится таймер");
+            Console.WriteLine("по нажатию enter начнется тест и запустится таймер 2 минуты");
             ConsoleKeyInfo key = Console.ReadKey();
             if (key.Key == ConsoleKey.Enter)
             {
@@ -33,7 +33,7 @@ namespace FastTypingChallenge
                     "Мы плывем по волнам вечности, как корабль в океане.";
 
 
-                DateTime endTime = DateTime.Now.AddMinutes(1);
+                DateTime endTime = DateTime.Now.AddMinutes(2);
                 int correctCharacters = 0;
                 int totalCharacters = 0;
                 int cursorX = 0;
